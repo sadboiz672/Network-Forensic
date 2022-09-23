@@ -107,25 +107,38 @@ _`submit: 3`_
 
 9. What is the IP of the organization's DNS server?
 
+- Nếu gặp các câu hỏi dạng như này, việc sử dụng networkminer cho chúng ta khá nhiều dữ liệu... như 10.4.10.132 là địa chỉ của máy nạn nhân, 
+địa chỉ 10.4.10.255 là broadcast.... và chúng ta có 10.4... là địa chỉ DNS.
 
+![image](https://user-images.githubusercontent.com/42565778/191890267-62368e60-673f-41c9-85af-86c64084c64e.png)
 
+`_submit: 10.4....._`
 
 10. What domain is the victim asking about in packet 204?
 
+- Cũng không có gì khó lắm chỉ cần follow để xem nội dung thôi 
 
+![image](https://user-images.githubusercontent.com/42565778/191890400-c3bc3a25-ee0d-4726-b47c-19ce492d251c.png)
 
+`_submit: proforma......._`
 
 11. What is the IP of the domain in the previous question?
 
+- Kết quả hiển thị ngay trong nội dung của file pcap.
 
+![image](https://user-images.githubusercontent.com/42565778/191894434-cb937d93-2bd7-48d3-8191-da426b1cc1c7.png)
 
+`_submit: 217......._`
 
 12. Indicate the country to which the IP in the previous section belongs.
+- Các bạn có thể sử dụng các website check ip là ra nhé.
 
+![image](https://user-images.githubusercontent.com/42565778/191894731-baac7cce-291a-458e-83e8-65a0b4b9faf7.png)
 
-
+`_submit: Fra...._`
 
 13. What operating system does the victim's computer run?
+
 
 
 
